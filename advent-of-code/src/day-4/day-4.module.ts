@@ -16,4 +16,4 @@ import { Day4Component } from './day-4.component';
         Day4Component
     ]
 })
-export class Day3Module { }
+export class Day4Module { }

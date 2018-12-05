@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Day2Module } from 'src/day-2/day-2/day-2.module';
+import { Day4Module } from 'src/day-4/day-4.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { Day2Module } from 'src/day-2/day-2/day-2.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Day2Module
+    Day2Module,
+    Day4Module
   ],
   providers: [],
   bootstrap: [AppComponent]
